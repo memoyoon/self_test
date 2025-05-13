@@ -1,66 +1,75 @@
 export const TESTS = [
-  // personalColor
+  //추후 테스트 추가
+  //EMPATH TEST 
   {
     info: {
       mainTitle: "엠패스 테스트",
       subTitle: "나는 엠패스일까?",
-      mainUrl: "EMPATH",
-      scoreType: "EMPATH",
-      mainImage:
-        "https://www.dropbox.com/scl/fi/u4moi8xe7wme1ao796ujw/personalColor-intro.png?rlkey=qn2igicxafksekjx9fsnukk9z&st=ifpx4r50&dl=1",
-      thumbImage:
-        "https://www.dropbox.com/scl/fi/9iqe0gypnnclo5elt3hpi/personalColor-thumb.png?rlkey=m9uwdd6xww0v66g2gjo2688jz&st=ut5c22fv&dl=1",
-      lang: "Kor",
-      category: "characteristic",
+      mainUrl: "empath",
+      scoreType: "empath",
     },
     questions: [
       {
-        question: "누군가 슬픈 얘기를 하면...",
+        question: "친구가 겪은 힘든 일에 대한 이야기를 하면 나는...",
         options: [
           "마음이 덜컥 내려앉고, 마치 내가 겪는 일처럼 마음이 무거워져요.",
-          "안타깝긴 하지만, 내 감정까지 휘청이진 않아요."
+          "안타깝긴 하지만, 내 감정까지 휘청이진 않아요. 거리를 유지하는 편이에요."
         ]
       },
       {
-        question: "처음 들어간 공간의 분위기가 이상할 때...",
+        question: "처음 들어간 카페나 공간의 분위기가 이상할 때 나는...",
         options: [
-          "그 분위기가 나한테 바로 전해져요. 괜히 마음이 뒤숭숭하고 멍할 때도 있어요.",
-          "분위기 같은 건 잘 모르겠고, 그냥 인테리어만 기억나요."
+          "그 분위기가 나한테 바로 전해져요. 괜히 마음이 들뜨거나 뒤숭숭하고 멍할 때도 있어요.",
+          "분위기 같은 건 잘 모르겠고, 그냥 인테리어 정도 기억나요."
         ]
       },
       {
-        question: "친구가 우울한 이야기를 꺼내면...",
+        question: "직장 동료가 기분이 안좋아보일 때 나는...",
         options: [
-          "듣기만 해도 같이 마음이 무거워지고, 말 없이도 그 감정이 전염된 느낌이에요.",
-          "친구 감정을 이해는 하지만, 내 감정선은 무너지지 않아요."
+          "신경쓰고 싶지 않아도 신경이 쓰여요. 누군가 불편해하면 바로 눈치채요.",
+          "누군가 불편해도 잘 모르겠어요. 궁금하지 않아요."
         ]
       },
       {
         question: "사람 많은 모임이나 파티에 다녀온 날 밤엔...",
         options: [
-          "이젠 아무도 안 보고 싶어... 온몸이 축 처지고 에너지가 텅 빈 느낌이에요.",
+          "이젠 가지 말아야겠다... 온몸이 축 처지고 에너지가 텅 빈 느낌이에요.",
           "피곤하긴 해도 나름 재밌고 괜찮아요. 다음 모임도 기대돼요!"
         ]
       },
       {
-        question: "상대가 무슨 감정을 느끼는지...",
+        question: "갈등 상황에서 나는?",
         options: [
-          "말하지 않아도 거의 느껴져요. 기분이 쎄~하게 전해져요.",
-          "말하거나 행동으로 보여야 감정을 알 수 있어요."
+          "가능하면 곧바로 해결하려고 해요. 다툼이 길어지면 내 마음도 무너지니까요.",
+          "감정의 방어막을 쌓아요. 나에게 큰 피해만 주지 않는다면 갈등을 굳이 애써 풀지 않아도 된다고 생각해요."
         ]
       },
       {
         question: "영화나 드라마에서 슬픈 장면을 보면...",
         options: [
           "크레딧이 올라간 뒤에도 멍~하고, 여운이 며칠 가기도 해요.",
-          "슬펐네~ 정도로 감정 정리하고 금방 털어내는 편이에요."
+          " '슬프네' 정도로 감정을 정리하고 금방 털어내는 편이에요."
+        ]
+      },
+      {
+        question: "음악을 들을 때의 나는..",
+        options: [
+          "가끔 몸이 리듬을 따라 가고 무아지경에 빠져요! 음악과 함께 가끔 딴 세상으로 떠나요.",
+          "음악을 종종 듣긴 하지만, 무아지경으로 빠지지는 않아요."
         ]
       },
       {
         question: "반려동물이나 숲에 갔을 때...",
         options: [
-          "그 존재랑 말없이 교감하는 느낌, 서로 마음을 주고받는 느낌이에요.",
-          "좋아하긴 하지만, 그렇게까지 연결된 느낌은 안 들어요."
+          "그 존재랑 말없이 교감하는 느낌, 마치 서로 마음을 주고받는 느낌이에요.",
+          "싫어하지는 하지만, 그렇게까지 연결된 느낌은 안 들어요."
+        ]
+      },
+      {
+        question: "꿈을 잘 기억하고, 꿈에 대해 이야기하는 편인가요?",
+        options: [
+          "꿈은 생생하게 기억해요! 그 꿈이 어떤 의미일지 궁금해하고 다른 사람에게도 꿈을 자주 이야기해요.",
+          "꿈을 잘 기억하지 않아요. 별로 신경 쓰지 않아요."
         ]
       },
       {
@@ -73,706 +82,99 @@ export const TESTS = [
       {
         question: "옆사람이 갑자기 눈물을 흘릴 때...",
         options: [
-          "이유 몰라도 울컥하고 눈물이 맺혀요. 처음 본 사람이어도요.",
+          "이유 몰라도 울컥하고 눈물이 맺혀요. 심지어 처음 본 사람이어도요.",
           "왜 울지...? 걱정은 되지만 나까지 울진 않아요."
         ]
       },
       {
-        question: "누가 힘든 얘기를 하면...",
+        question: "누굴 처음 만났을 때...",
         options: [
-          "듣는 것만으로도 나까지 무너지는 느낌이라 피하고 싶을 때도 있어요.",
-          "충분히 귀 기울이지만, 내 마음은 비교적 안전지대에 있어요."
-        ]
-      },
-      {
-        question: "처음 만난 사람과의 첫인상은...",
-        options: [
-          "설명 어려운 느낌이 직감처럼 와요. 끌림 또는 거부감이 바로 느껴져요.",
+          "뭔가 설명하기 어렵지만 끌림 또는 거부감이 바로 느껴져요.",
           "겉모습이나 대화를 통해 천천히 알아가야 느낌이 와요."
         ]
       },
+    ],
+    results: [
       {
-        question: "고민 상담을 오래 해줬을 때 나는...",
-        options: [
-          "그 사람이 머릿속에 계속 맴돌고, 마음이 무거워요.",
-          "잘 해줬다 싶고, 내 일상으로 금방 돌아와요."
-        ]
+        type: "A",
+        nickname: "나는 나, 너는 너",
+        resultText: "감정적으로 중심이 잘 잡힌 타입이에요.",
+        detailText:
+          "당신은 자신의 감정을 기준으로 세상을 바라보는 사람이에요. 주변 감정에 쉽게 흔들리지 않기에 안정감 있고, 때로는 타인의 감정을 차분하게 받아들일 수 있어요.",
+        advice:
+          "공감 피로는 없지만, 때로는 감정적 교류도 필요해요. 상대의 감정에 잠깐 더 귀 기울여보는 연습을 해보면 인간관계가 더 깊어질 수 있어요.",
+        strengths: [
+          "위기 상황에서 침착한 의사결정",
+          "감정보다 이성 중심의 조율",
+          "리더십이 필요한 역할"
+        ],
+        selfCareTips: [
+          "대화 중 감정적인 반응 대신 질문을 던져보세요",
+          "주변 사람의 표정을 하루에 한 번 관찰해보세요",
+          "감정을 나누는 시간을 의식적으로 가져보세요"
+        ],
+        imageSrc: "/images/smile.png"
+      },
+      {
+        type: "B",
+        nickname: "흔들리지만 무너지지 않는 나무 같은 사람",
+        resultText: "감정에 민감하면서도 잘 다스리는 편이에요.",
+        detailText:
+          "당신은 타인의 감정을 민감하게 느끼되, 그 안에서 중심을 유지하려는 힘이 있어요. 공감과 자기보호 사이에서 균형을 잡고 있는 중이에요.",
+        advice:
+          "가끔은 감정이 쌓일 수 있으니, 스스로 감정의 잔고를 확인하는 루틴을 만들어보세요. 당신의 감정도 소중하니까요.",
+        strengths: [
+          "감정적 신호를 빠르게 캐치하는 능력",
+          "갈등 중재와 상황 완화",
+          "팀워크 기반의 조율"
+        ],
+        selfCareTips: [
+          "감정 온도계를 그리고 오늘의 감정을 기록해보세요",
+          "아침마다 오늘의 감정 목표를 정해보세요",
+          "혼자 있는 시간에 음악과 함께 감정 정리를 해보세요"
+        ],
+        imageSrc: "/images/jogging.png"
+      },
+      {
+        type: "C",
+        nickname: "바람 불면 흔들리는 갈대 같은 사람",
+        resultText: "감정을 깊이 느끼는, 예민하고 따뜻한 사람이에요.",
+        detailText:
+          "당신은 타인의 감정에 공감하는 능력이 매우 뛰어난 사람이에요. 그래서 때때로 감정의 무게에 눌릴 수도 있죠. 공감은 선물이지만, 당신 자신도 지켜야 해요.",
+        advice:
+          "감정을 표현할 수 있는 안전한 공간을 꼭 마련해보세요. 타인의 감정을 소화하느라 나를 잃지 않도록요.",
+        strengths: [
+          "미묘한 분위기 감지력",
+          "예술·글쓰기·창작 같은 감정 기반 활동",
+          "감정이 필요한 대화나 상담"
+        ],
+        selfCareTips: [
+          "감정 일기를 하루 한 줄씩 써보세요",
+          "산책 중 감정의 이름을 붙여보세요 (예: 이건 걱정, 이건 기쁨)",
+          "마음을 안정시키는 루틴(차 마시기, 조용한 공간)을 만들어보세요"
+        ],
+        imageSrc: "/images/results/write.png"
+      },
+      {
+        type: "D",
+        nickname: "공감의 바다에 사는 사람",
+        resultText: "엠패스로 살아오느라 참 힘드셨죠?",
+        detailText:
+          "당신은 타인의 감정을 너무나도 잘 받아들이는 사람입니다. 그만큼 내 감정은 뒤로 밀리기 쉬웠을 거예요. 그건 당신이 약해서가 아니라, 너무 따뜻해서 그래요.",
+        advice:
+          "이제는 자신을 돌보는 시간이 필요해요. 당신의 감정도 존중받을 자격이 있어요. 감정을 정화할 수 있는 루틴을 만들어보세요.",
+        strengths: [
+          "감정 기반의 상담·치유 활동",
+          "예술·공감 콘텐츠 제작",
+          "타인의 감정을 진심으로 이해하는 대화 능력"
+        ],
+        selfCareTips: [
+          "감정 해소 루틴(글쓰기, 명상 등)을 매일 실천해보세요",
+          "‘이건 내 감정이 아니야’ 라고 스스로 말해보세요",
+          "정서적으로 안전한 사람과 대화를 나눠보세요"
+        ],
+        imageSrc: "/images/results/meditation.png"
       }
     ],
-    results: [
-      {
-        type: "ESTJ",
-        query: "ESTJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/5lhbern3h5b8w7ui6sssu/ESTJ.png?rlkey=bjudaghu8hm4d5ohgo24v3mbj&st=uy87vrg6&dl=1",
-      },
-      {
-        type: "ESTP",
-        query: "ESTP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/8ytg6oypu645x0qpcfemt/ESTP.png?rlkey=in97p7velqy191srwufft1vs1&st=1pkilt92&dl=1",
-      },
-      {
-        type: "ESFJ",
-        query: "ESFJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/d91sjo51emt7y3stj7hbg/ESFJ.png?rlkey=xgxmki7qiwn4i0hdwj3vuhzsi&st=ethsiyxr&dl=1",
-      },
-      {
-        type: "ESFP",
-        query: "ESFP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/r0vzqjgrqo0wj3u71uhk4/ESFP.png?rlkey=jadq00urhuwy7y9ag15o87p16&st=wdrn9n3d&dl=1",
-      },
-      {
-        type: "ENTJ",
-        query: "ENTJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/22icyye1317a1w1397z8q/ENTJ.png?rlkey=kavn4ijsa6q08adtwab18ylnj&st=icaonefg&dl=1",
-      },
-      {
-        type: "ENTP",
-        query: "ENTP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/v05pict18syeudgdpzawc/ENTP.png?rlkey=7sj9z64pz5498hx6dpkpugpj0&st=kdcy2vwz&dl=1",
-      },
-      {
-        type: "ENFJ",
-        query: "ENFJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/e7m4ja909vw52jonqz2p3/ENFJ.png?rlkey=boxstq35qpqvre21aahwtxjif&st=9f4mv24e&dl=1",
-      },
-      {
-        type: "ENFP",
-        query: "ENFP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/84up1wzeh3o92h3ndyyhy/ENFP.png?rlkey=az1j3kjxbbeqfxgc2ieb1e4uu&st=kcacavzx&dl=1",
-      },
-      {
-        type: "ISTJ",
-        query: "ISTJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/6nm4iwpja8ckf013l1fxm/ISTJ.png?rlkey=7hnj0pxcaeeq1nkmvlkjq0ihj&st=0dkq6mrp&dl=1",
-      },
-      {
-        type: "ISTP",
-        query: "ISTP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/0xcrdzoe86vwug5xr16i0/ISTP.png?rlkey=mxow3zwad1vw74j1bqw0obvk7&st=w8baagct&dl=1",
-      },
-      {
-        type: "ISFJ",
-        query: "ISFJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/wtifdrfjb57kcarf5qk9m/ISFJ.png?rlkey=w1p61ver9kth4pfesbbda2u12&st=xm0f3xq1&dl=1",
-      },
-      {
-        type: "ISFP",
-        query: "ISFP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/aj8oj1er6b3ouwisn5uk2/ISFP.png?rlkey=v9okq1di9twtwxnw9ln3t160x&st=pr0zx4w6&dl=1",
-      },
-      {
-        type: "INTJ",
-        query: "INTJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/ms3hxuc03g2ye9cl71ec1/INTJ.png?rlkey=nuadpr0hv3yfglfqerog5cejw&st=gao0ony6&dl=1",
-      },
-      {
-        type: "INTP",
-        query: "INTP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/to767xowr0fdwsp6896hv/INTP.png?rlkey=ehr8lpihjmsiepxlp5kdcxkel&st=38hrud5l&dl=1",
-      },
-      {
-        type: "INFJ",
-        query: "INFJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/ak707z5pnsc2ng36z5s93/INFJ.png?rlkey=dm6qvh8bzdho49bikhi3msp45&st=ksw315sz&dl=1",
-      },
-      {
-        type: "INFP",
-        query: "INFP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/ap8zax8x2g1zabq7ydhze/INFP.png?rlkey=ez9gqtmjkgo1j8ko3shgdihqn&st=gvd5a7xd&dl=1",
-      },
-    ],
-  },
-  // personalColorEng
-  {
-    info: {
-      mainTitle: "Personal Color Test",
-      subTitle: "What is the color that suits me?",
-      mainUrl: "personalColorEng",
-      scoreType: "MBTI",
-      mainImage:
-        "https://www.dropbox.com/scl/fi/jmihoko6rjpk0d3rgewsr/personalColorEng-intro.png?rlkey=ifyyqa8m4w44vq1nk08fshhnj&st=n42rl4fc&dl=1",
-      thumbImage:
-        "https://www.dropbox.com/scl/fi/x2b3tms9ml6kbz3vcot9h/personalColorEng-thumb.png?rlkey=alaxfwbswgfn34xao2zm99a84&st=zvw3w510&dl=1",
-      lang: "Eng",
-      category: "characteristic",
-    },
-    questions: [
-      {
-        which: "EI",
-        question: "처음 보는 친구들에게 나는?",
-        answers: [
-          {
-            type: "E",
-            content: "내가 먼저 말을 건낸다.",
-          },
-          {
-            type: "I",
-            content: "대부분 다른 친구가 먼저 말을 건낸다.",
-          },
-        ],
-      },
-      {
-        which: "EI",
-        question: "주말에 난?",
-        answers: [
-          {
-            type: "E",
-            content: "사람들과 만나는 것을 즐긴다.",
-          },
-          {
-            type: "I",
-            content: "혼자 있는 게 싫지 않은 편이다.",
-          },
-        ],
-      },
-      {
-        which: "EI",
-        question: "친구들과 놀 때 나는?",
-        answers: [
-          {
-            type: "E",
-            content: "왁자지껄한 신나는 분위기를 좋아한다.",
-          },
-          {
-            type: "I",
-            content: "소수의 친구들과 소소하게 대화하는 것을 좋아한다. ",
-          },
-        ],
-      },
-      {
-        which: "SN",
-        question: "내가 더 중요하게 생각하는 것은?",
-        answers: [
-          {
-            type: "S",
-            content: "현재가 없으면 미래도 없다.",
-          },
-          {
-            type: "N",
-            content: "미래를 생각하지 않으면 발전이 없다.",
-          },
-        ],
-      },
-      {
-        which: "SN",
-        question: "일할 때 나는?",
-        answers: [
-          {
-            type: "S",
-            content: "남들이 하는 대로 따라 가는 것이 좋다.",
-          },
-          {
-            type: "N",
-            content: "스스로 나만의 방법을 만드는 게 좋다. ",
-          },
-        ],
-      },
-      {
-        which: "SN",
-        question: "주변 사람들이 나에게 하는 말은?",
-        answers: [
-          {
-            type: "S",
-            content: "꾸준하고 참을성이 있다는 말을 자주한다.",
-          },
-          {
-            type: "N",
-            content: "창의적이고 독창적이라는 말을 자주한다.",
-          },
-        ],
-      },
-      {
-        which: "TF",
-        question: "거절해야 하는 상황이 오면 나는?",
-        answers: [
-          {
-            type: "T",
-            content: "강력하게 할 수 없다고 말한다.",
-          },
-          {
-            type: "F",
-            content: "고민하다가 대부분 들어주는 편이다.",
-          },
-        ],
-      },
-      {
-        which: "TF",
-        question: "화났을 때 나는?",
-        answers: [
-          {
-            type: "T",
-            content: "논리적으로 잘 말하면서 따진다. ",
-          },
-          {
-            type: "F",
-            content: "할말이 많지만 너무 분해서 눈물부터 난다.",
-          },
-        ],
-      },
-      {
-        which: "TF",
-        question:
-          "고민을 얘기하는 친구, 듣다 보니 친구의 잘못인 것 같다. 그럴 때 나는?",
-        answers: [
-          {
-            type: "T",
-            content: "친구의 잘못된 점을 말해준다.",
-          },
-          {
-            type: "F",
-            content: "직접적으로 말하면 친구가 그래 할까봐 돌려 말한다.",
-          },
-        ],
-      },
-      {
-        which: "JP",
-        question: "준비물을 준비할 때 나는?",
-        answers: [
-          {
-            type: "J",
-            content: "하루 전 날 미리 준비한다.",
-          },
-          {
-            type: "P",
-            content: "‘내일 챙겨야지’ 하다가 까먹고 놓고 오는 일이 많다.",
-          },
-        ],
-      },
-      {
-        which: "JP",
-        question:
-          "끝나고 집에 가서 공부하려 했는데, 친구들이 놀자고 붙잡는다. 나는?",
-        answers: [
-          {
-            type: "J",
-            content: "계획에 없던 일인데…매우 당황스럽다.",
-          },
-          {
-            type: "P",
-            content: "오케이! 역시 계획대로 안 되는 것이 인생! 놀자!!!!",
-          },
-        ],
-      },
-      {
-        which: "JP",
-        question: "내가 가고싶은 여행지 스타일은?",
-        answers: [
-          {
-            type: "J",
-            content:
-              "내가 계획한대로! 계획적으로 일의 순서대로 진행하는 것을 좋아해!",
-          },
-          {
-            type: "P",
-            content:
-              "그때그때 생각나는 대로 일 처리! 융통성 있게 하는 것을 좋아해!",
-          },
-        ],
-      },
-    ],
-    results: [
-      {
-        type: "ESTJ",
-        query: "ESTJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/7jyylkbnew8w67sadxwf3/ESTJ.png?rlkey=x28ejf7fphxcknxgrox4jt0xi&st=gi6jplvf&dl=1",
-      },
-      {
-        type: "ESTP",
-        query: "ESTP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/69zj9tuprhhhawqh3vb3p/ESTP.png?rlkey=3qzxrw45bbweszae5ujug6jrf&st=fp9olors&dl=1",
-      },
-      {
-        type: "ESFJ",
-        query: "ESFJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/d91sjo51emt7y3stj7hbg/ESFJ.png?rlkey=xgxmki7qiwn4i0hdwj3vuhzsi&st=ethsiyxr&dl=1",
-      },
-      {
-        type: "ESFP",
-        query: "ESFP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/4en5qkoku1gdhqcy94gbn/ESFJ.png?rlkey=yysnrrp2292gb6v933lrn8od9&st=xzvb06i0&dl=1",
-      },
-      {
-        type: "ENTJ",
-        query: "ENTJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/d6yk934zbz3skyuzqx2uh/ENTJ.png?rlkey=ww8y9oig2cjvgedolhlzlydc4&st=zkhwom3a&dl=1",
-      },
-      {
-        type: "ENTP",
-        query: "ENTP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/nocstuf0kek8vqwof04kr/ENTP.png?rlkey=jhzncfwwge0vm0prc9z1q1us8&st=3nbx8feg&dl=1",
-      },
-      {
-        type: "ENFJ",
-        query: "ENFJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/mz9xj0eiun4y0wyk6i68b/ENFJ.png?rlkey=a27hkov12q2jnh5afjpcb4vf8&st=0pwukbac&dl=1",
-      },
-      {
-        type: "ENFP",
-        query: "ENFP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/ytgc86i5mxjiynwrm4mfw/ENFP.png?rlkey=tomxuobmmpl9fma9ng67pw2d8&st=o0m2tssj&dl=1",
-      },
-      {
-        type: "ISTJ",
-        query: "ISTJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/0uwl1mzly1mwi0fsu0acz/ISTJ.png?rlkey=nnbk0rn8w7di6iw7ipybpwwey&st=ra2mod39&dl=1",
-      },
-      {
-        type: "ISTP",
-        query: "ISTP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/6clhx19z1c0l04ulxf5y2/ISTP.png?rlkey=4fwnw6cebeekdvgq3i2hlgsl1&st=k789fxan&dl=1",
-      },
-      {
-        type: "ISFJ",
-        query: "ISFJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/nrhs5u9dgk6w1gs90wkvv/ISFJ.png?rlkey=jxgftwx5hwg088zsbutxbqlgq&st=bi2ywew2&dl=1",
-      },
-      {
-        type: "ISFP",
-        query: "ISFP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/wdnx56kbkdal04nn6364w/ISFP.png?rlkey=5jyfp2x3dcsasjdqraviuqzcg&st=0g9zrn2z&dl=1",
-      },
-      {
-        type: "INTJ",
-        query: "INTJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/hti638rqyby82gguj01z8/INTJ.png?rlkey=ijtbi4hh45dysynn3h6q3k9rg&st=trmrqhry&dl=1",
-      },
-      {
-        type: "INTP",
-        query: "INTP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/nbena5wf4wuok93tftaxy/INTP.png?rlkey=q5d5oyzmrs8ytuiyzcbekm9v7&st=ev85otx2&dl=1",
-      },
-      {
-        type: "INFJ",
-        query: "INFJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/6wxifksbt0c936xlmo3d7/INFJ.png?rlkey=7l6o8yl266k4aor8kbru0b1hy&st=l6xxjeqc&dl=1",
-      },
-      {
-        type: "INFP",
-        query: "INFP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/q4bpun6h0ddy1tf7a4h7c/INFP.png?rlkey=57mzaw4neohebbeh0xnrpcow9&st=m92y77uq&dl=1",
-      },
-    ],
-  },
-  // personalColorJP
-  {
-    info: {
-      mainTitle: "パーソナルカラー診断_性格編",
-      subTitle: "自分に似合う色は何だろう？ パーソナルカラーテスト",
-      mainUrl: "personalColorJP",
-      scoreType: "MBTI",
-      mainImage:
-        "https://www.dropbox.com/scl/fi/oyaueh1pzggp5s92532ba/personalColorJP-intro.png?rlkey=pc8j3xs4o64hlxoiqegk6nrdb&st=ipxjb532&dl=1",
-      thumbImage:
-        "https://www.dropbox.com/scl/fi/kt272mdx3kigrtgwojeod/personalColorJP-thumb.png?rlkey=j19yzp6gt6iokqgg8kzrl1gpj&st=gzznyj10&dl=1",
-      lang: "JP",
-      category: "characteristic",
-    },
-    questions: [
-      {
-        which: "EI",
-        question: "처음 보는 친구들에게 나는?",
-        answers: [
-          {
-            type: "E",
-            content: "내가 먼저 말을 건낸다.",
-          },
-          {
-            type: "I",
-            content: "대부분 다른 친구가 먼저 말을 건낸다.",
-          },
-        ],
-      },
-      {
-        which: "EI",
-        question: "주말에 난?",
-        answers: [
-          {
-            type: "E",
-            content: "사람들과 만나는 것을 즐긴다.",
-          },
-          {
-            type: "I",
-            content: "혼자 있는 게 싫지 않은 편이다.",
-          },
-        ],
-      },
-      {
-        which: "EI",
-        question: "친구들과 놀 때 나는?",
-        answers: [
-          {
-            type: "E",
-            content: "왁자지껄한 신나는 분위기를 좋아한다.",
-          },
-          {
-            type: "I",
-            content: "소수의 친구들과 소소하게 대화하는 것을 좋아한다. ",
-          },
-        ],
-      },
-      {
-        which: "SN",
-        question: "내가 더 중요하게 생각하는 것은?",
-        answers: [
-          {
-            type: "S",
-            content: "현재가 없으면 미래도 없다.",
-          },
-          {
-            type: "N",
-            content: "미래를 생각하지 않으면 발전이 없다.",
-          },
-        ],
-      },
-      {
-        which: "SN",
-        question: "일할 때 나는?",
-        answers: [
-          {
-            type: "S",
-            content: "남들이 하는 대로 따라 가는 것이 좋다.",
-          },
-          {
-            type: "N",
-            content: "스스로 나만의 방법을 만드는 게 좋다. ",
-          },
-        ],
-      },
-      {
-        which: "SN",
-        question: "주변 사람들이 나에게 하는 말은?",
-        answers: [
-          {
-            type: "S",
-            content: "꾸준하고 참을성이 있다는 말을 자주한다.",
-          },
-          {
-            type: "N",
-            content: "창의적이고 독창적이라는 말을 자주한다.",
-          },
-        ],
-      },
-      {
-        which: "TF",
-        question: "거절해야 하는 상황이 오면 나는?",
-        answers: [
-          {
-            type: "T",
-            content: "강력하게 할 수 없다고 말한다.",
-          },
-          {
-            type: "F",
-            content: "고민하다가 대부분 들어주는 편이다.",
-          },
-        ],
-      },
-      {
-        which: "TF",
-        question: "화났을 때 나는?",
-        answers: [
-          {
-            type: "T",
-            content: "논리적으로 잘 말하면서 따진다. ",
-          },
-          {
-            type: "F",
-            content: "할말이 많지만 너무 분해서 눈물부터 난다.",
-          },
-        ],
-      },
-      {
-        which: "TF",
-        question:
-          "고민을 얘기하는 친구, 듣다 보니 친구의 잘못인 것 같다. 그럴 때 나는?",
-        answers: [
-          {
-            type: "T",
-            content: "친구의 잘못된 점을 말해준다.",
-          },
-          {
-            type: "F",
-            content: "직접적으로 말하면 친구가 그래 할까봐 돌려 말한다.",
-          },
-        ],
-      },
-      {
-        which: "JP",
-        question: "준비물을 준비할 때 나는?",
-        answers: [
-          {
-            type: "J",
-            content: "하루 전 날 미리 준비한다.",
-          },
-          {
-            type: "P",
-            content: "‘내일 챙겨야지’ 하다가 까먹고 놓고 오는 일이 많다.",
-          },
-        ],
-      },
-      {
-        which: "JP",
-        question:
-          "끝나고 집에 가서 공부하려 했는데, 친구들이 놀자고 붙잡는다. 나는?",
-        answers: [
-          {
-            type: "J",
-            content: "계획에 없던 일인데…매우 당황스럽다.",
-          },
-          {
-            type: "P",
-            content: "오케이! 역시 계획대로 안 되는 것이 인생! 놀자!!!!",
-          },
-        ],
-      },
-      {
-        which: "JP",
-        question: "내가 가고싶은 여행지 스타일은?",
-        answers: [
-          {
-            type: "J",
-            content:
-              "내가 계획한대로! 계획적으로 일의 순서대로 진행하는 것을 좋아해!",
-          },
-          {
-            type: "P",
-            content:
-              "그때그때 생각나는 대로 일 처리! 융통성 있게 하는 것을 좋아해!",
-          },
-        ],
-      },
-    ],
-    results: [
-      {
-        type: "ESTJ",
-        query: "ESTJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/pw32b9gizven8wqpw5dwf/ESTJ.png?rlkey=qtklzibgln378c3bdknwjw7tf&st=8l16g8ct&dl=1",
-      },
-      {
-        type: "ESTP",
-        query: "ESTP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/ibgrksb70x2bjzcp0z04h/ESTP.png?rlkey=ik3lcdangfzm98erz6br44qb1&st=lhd9w11r&dl=1",
-      },
-      {
-        type: "ESFJ",
-        query: "ESFJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/3sj74dcaopwcef1nu21s5/ESFJ.png?rlkey=dsbzcq1d82u89qtzgvmke5ase&st=9cf15gjq&dl=1",
-      },
-      {
-        type: "ESFP",
-        query: "ESFP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/fpewgwyldewu32atxl46r/ESFP.png?rlkey=wqk84mirvwsztbndmcxnyf5nq&st=6e0egn3c&dl=1",
-      },
-      {
-        type: "ENTJ",
-        query: "ENTJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/5z99j9pguw2v481c2684d/ENTJ.png?rlkey=gh85ty07z8wt487w67qxax5px&st=ss1r7dxx&dl=1",
-      },
-      {
-        type: "ENTP",
-        query: "ENTP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/wbt2slrxassf1w1xkmtre/ENTP.png?rlkey=otdc1hazlyxnangfcryydh5k1&st=69k3sp7u&dl=1",
-      },
-      {
-        type: "ENFJ",
-        query: "ENFJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/45rtpzm7yc0abt0jpw4dg/ENFJ.png?rlkey=03bckb05d1vkz534jkqskdunh&st=sja06fnq&dl=1",
-      },
-      {
-        type: "ENFP",
-        query: "ENFP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/q6mzyi55sr85bpaahvrbf/ENFP.png?rlkey=3721niechpy0xsvvc2i9rzrd3&st=96zbdbsu&dl=1",
-      },
-      {
-        type: "ISTJ",
-        query: "ISTJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/65z4aoimkhjya6wmu7vo8/ISTJ.png?rlkey=guf8653rlsy12qwqju2prox59&st=fgwc8cnp&dl=1",
-      },
-      {
-        type: "ISTP",
-        query: "ISTP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/be1p8s7v4y3cn5l5jqm1q/ISTP.png?rlkey=3zylu48zhmqmit9ihfy76487u&st=8vdfflut&dl=1",
-      },
-      {
-        type: "ISFJ",
-        query: "ISFJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/kqlmkbn2pqvmf34ezybcd/ISFJ.png?rlkey=sd3dryf9pahqaq83t23g5hiq8&st=kxo5opty&dl=1",
-      },
-      {
-        type: "ISFP",
-        query: "ISFP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/0p3eidtg3jcmfmxp6f59s/ISFP.png?rlkey=wmktoly5dyl6xezae7nwxwu3u&st=sh6o7h2i&dl=1",
-      },
-      {
-        type: "INTJ",
-        query: "INTJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/ibyezz790rxzciz7mmdmb/INTJ.png?rlkey=aewbj0ydimf4z1xv0olhpc2zh&st=lcotd17i&dl=1",
-      },
-      {
-        type: "INTP",
-        query: "INTP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/gnthsbrbmpe23m07dacyt/INTP.png?rlkey=i45gddj68d5go2mpanknj4yf7&st=aois0s0l&dl=1",
-      },
-      {
-        type: "INFJ",
-        query: "INFJ",
-        img_src:
-          "https://www.dropbox.com/scl/fi/tndrtsb971747ngvvhh8a/INFJ.png?rlkey=y7lvzvphffjam2yr5hpsqhbnz&st=1sk1yal6&dl=1",
-      },
-      {
-        type: "INFP",
-        query: "INFP",
-        img_src:
-          "https://www.dropbox.com/scl/fi/8r17nrwcdlbop2nluv6c3/INFP.png?rlkey=6atqeqic5a98adqima7ii56qm&st=pf2ucdmw&dl=1",
-      },
-    ],
-  },
-];
-
-// mbti.com
-// images.mbti.com
+  }
+]

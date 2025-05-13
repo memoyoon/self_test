@@ -1,12 +1,68 @@
-# React + Vite
+# 엠패스테스트 (Empath Test)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🧠 **공감 능력치 테스트** — 사용자의 질문 응답을 바탕으로 공감력(Emotional Empathy)을 시각적으로 보여주는 퍼스널리티 테스트 웹 앱입니다.
 
-Currently, two official plugins are available:
+## 🛠 기술 스택
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 19
+- Vite
+- Tailwind CSS
+- ESLint
+- React Router v7
+- Lucide Icons
+- html2canvas
 
-## Expanding the ESLint configuration
+## 🧩 폴더 구조
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+├── assets/ # 이미지, 폰트 등 정적 리소스
+├── components/ # UI 컴포넌트
+├── data/ # 질문/결과 데이터
+├── pages/ # 라우팅되는 페이지 컴포넌트
+├── tools/ # 유틸리티 함수들
+├── App.jsx
+└── main.jsx
+
+shell
+Copy code
+
+## 🚀 시작하기
+
+```bash
+# 패키지 설치
+npm install
+
+# 로컬 개발 서버 실행
+npm run dev
+💾 정적 리소스 관리
+/public: 공유 가능한 정적 파일 (예: 결과 이미지 다운로드)
+
+/src/assets: 내부에서 사용하는 아이콘, 폰트 등
+
+🔗 배포 주소
+(추후 추가 예정)
+
+📸 미리보기
+(추후 이미지 추가 예정)
+
+💾 정적 리소스 관리
+/public: 공유 가능한 정적 파일 (예: 결과 이미지 다운로드)
+
+/src/assets: 내부에서 사용하는 아이콘, 폰트 등
+
+👤 저자
+GitHub: Memoyoon
+
+✅ TODO
+
+ 테스트 코드 작성
+ 결과 공유 기능 강화
+
+
+
+
+
+
+
+
+
