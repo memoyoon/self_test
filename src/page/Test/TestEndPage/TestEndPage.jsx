@@ -22,7 +22,7 @@ const TestEndPage = ({ score = 0, total = 12, results = [] }) => {
   const resultData = results.find((item) => item.type === resultType);
   const percentage = getPercentage(score, total);
 
-  console.log('resultData', resultData)
+
   useEffect(() => {
     // 로딩 상태 유지 후 자동으로 결과 페이지로 이동
     const timer = setTimeout(() => {
@@ -31,12 +31,12 @@ const TestEndPage = ({ score = 0, total = 12, results = [] }) => {
       });
     }, 3000); // 3초 로딩
 
-    console.log('resultData', resultData)
+
     return () => clearTimeout(timer); // 메모리 누수 방지
   }, []);
 
   return (
-    <div className="min-h-screen bg-amber-50 flex flex-col items-center justify-center text-center px-6">
+    <div className="h-full flex flex-col items-center justify-center text-center px-6">
       {/* 로딩 애니메이션 원 */}
       <div className="relative w-16 h-16 mb-6">
         <div className="absolute inset-0 rounded-full border-4 border-amber-300 animate-ping opacity-50"></div>

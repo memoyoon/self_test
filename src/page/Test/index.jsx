@@ -54,7 +54,7 @@ const Test = () => {
   const isTextIng = step < questions.length;
 
   return (
-    isTextIng ? <TestIngPage state={state} dispatch={dispatch} questions={questions} /> : <TestEndPage score={score} total={questions.length} results={results} />
+    !isTextIng ? <TestIngPage state={state} dispatch={dispatch} questions={questions} /> : <TestEndPage score={score} total={questions.length} results={results} />
   )
 
 }

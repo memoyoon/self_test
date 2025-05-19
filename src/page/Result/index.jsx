@@ -54,9 +54,9 @@ const Result = () => {
 
   return (
     <div
-      className="flex-col flex w-full min-h-screen bg-cover bg-center p-6 text-center font-body bg-gradient-to-br from-[#fffaf0] to-white  px-4 sm:px-6 lg:px-12 text-center overflow-x-hidden"
+      className="flex-col flex w-full bg-cover bg-center text-center font-body p-12"
     >
-      <div className="min-h-screen bg-gradient-to-b from-amber-50 to-white flex flex-col items-center justify-center px-4 py-10">
+      <div className="bg-gradient-to-b from-amber-50 to-white flex flex-col items-center justify-center">
         <div className="w-full max-w-xl bg-white rounded-2xl shadow-md border border-amber-200 p-6 sm:p-8 text-[#5c3d1c] font-body">
 
           {/* 닉네임 + 요약 결과 */}
