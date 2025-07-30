@@ -15,13 +15,13 @@
 ## 🧩 폴더 구조
 
 src/
-├── assets/ # 이미지, 폰트 등 정적 리소스
-├── components/ # UI 컴포넌트
-├── data/ # 질문/결과 데이터
-├── pages/ # 라우팅되는 페이지 컴포넌트
-├── tools/ # 유틸리티 함수들
-├── App.jsx
-└── main.jsx
+assets/ # 이미지, 폰트 등 정적 리소스
+components/ # UI 컴포넌트
+data/ # 질문/결과 데이터
+pages/ # 라우팅되는 페이지 컴포넌트
+tools/ # 유틸리티 함수들
+App.jsx
+main.jsx
 
 shell
 Copy code
